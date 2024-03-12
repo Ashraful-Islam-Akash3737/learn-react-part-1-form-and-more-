@@ -1,6 +1,7 @@
-// import { useState } from 'react'
+
 import './App.css'
-import Form from './FORM/Form'
+// import Form from './FORM/Form'
+import FormObject from './FORM/FormObject'
 
 function App() {
   // const [count, setCount] = useState(0)
@@ -9,7 +10,8 @@ function App() {
     <>
       
       <h1>Vite + React</h1>
-      <Form></Form>
+      {/* <Form></Form> */}
+      <FormObject></FormObject>
     </>
   )
 }
